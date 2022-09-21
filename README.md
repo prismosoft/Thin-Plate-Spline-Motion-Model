@@ -30,6 +30,7 @@ Source code of the CVPR'2022 paper "Thin-Plate Spline Motion Model for Image Ani
 We support ```python3```.(Recommended version is Python 3.9).
 To install the dependencies run:
 ```bash
+pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 pip install -r requirements.txt
 ```
 
